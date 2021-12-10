@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequencer</title>
+
+    <link rel="stylesheet" href="sequencer.css">
+</head>
+<body>  
+
+    <main>
+        <div id="sequencer" class="container sequencer">
+        </div>
+    
+        <div class="controls">
+            <button id="play-button" class="play-button">Play</button>
+            <div class="bpm">
+                <label>bpm
+                    <input type="range" id="bpm" min="60" max="400" value="120">
+                    <span id="bpm-display">120</span>
+                </label>
+            </div>
+            <div id="synth">
+                <label>Synth Select
+                    <select id="synthSelect">
+                        <option value="MembraneSynth">Membrane</option>
+                        <option value="square8">Square</option>
+                        <option value="PluckSynth">Pluck</option>
+                        <option value="MetalSynth">Metal</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+    </main>
+    
+    
+    <script src="sequencer.js"  type="module"></script>
+</body>
+</html>
