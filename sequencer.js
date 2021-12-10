@@ -197,4 +197,4 @@ synthSelect.addEventListener("input", () => {
 }); 
 
 
-/* https://medium.com/geekculture/creating-a-step-sequencer-with-tone-js-32ea3002aaf5 */
+/* Original sequencer code: https://medium.com/geekculture/creating-a-step-sequencer-with-tone-js-32ea3002aaf5 */
